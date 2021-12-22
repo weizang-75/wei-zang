@@ -1,0 +1,21 @@
+{
+  "name": "wei-zang",
+  "version": "1.0.0",
+  "description": "Open Source wei-zang.com",
+  "scripts": {
+    "bootstrap": "cd ./lerna && lerna bootstrap",
+    "wz:dev": "cd ./lerna/packages/wei-zang && npm run start",
+    "wz:build": "cd ./lerna/packages/wei-zang && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weizang-75/wei-zang.git"
+  },
+  "author": "milky",
+  "license": "MIT",
+  "keywords": [
+    "open source",
+    "react",
+    "wordpress"
+  ]
+}
