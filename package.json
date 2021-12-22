@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Open Source wei-zang.com",
   "scripts": {
-    "bootstrap": "cd ./lerna && lerna bootstrap"
+    "bootstrap": "cd ./lerna && lerna bootstrap",
+    "wz:dev": "cd ./lerna/packages/wei-zang && npm run start",
+    "wz:build": "cd ./lerna/packages/wei-zang && npm run build"
   },
   "repository": {
     "type": "git",
