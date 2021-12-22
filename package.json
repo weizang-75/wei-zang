@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Open Source wei-zang.com",
   "scripts": {
-    "test": "echo \"nothing to see here.\" && exit 1"
+    "bootstrap": "cd ./lerna && lerna bootstrap"
   },
   "repository": {
     "type": "git",
