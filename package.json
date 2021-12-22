@@ -1,0 +1,19 @@
+{
+  "name": "wei-zang",
+  "version": "1.0.0",
+  "description": "Open Source wei-zang.com",
+  "scripts": {
+    "test": "echo \"nothing to see here.\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weizang-75/wei-zang.git"
+  },
+  "author": "milky",
+  "license": "MIT",
+  "keywords": [
+    "open source",
+    "react",
+    "wordpress"
+  ]
+}
