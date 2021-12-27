@@ -1,6 +1,6 @@
 {
   "name": "wei-zang",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Flash-like implementation of React",
   "repository": "https://github.com/listingslab-software/listingslab-apps",
   "author": "milky <listingslab@gmail.com>",
@@ -13,6 +13,7 @@
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
     "@reduxjs/toolkit": "^1.6.2",
+    "firebase": "^9.6.1",
     "gsap": "^3.8.0",
     "react": "16.12.0",
     "react-dom": "16.12.0",
