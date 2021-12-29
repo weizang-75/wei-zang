@@ -1,6 +1,6 @@
 {
   "name": "wei-zang",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Open Source wei-zang.com WordPress consumer",
   "scripts": {
     "bootstrap": "cd ./lerna && lerna bootstrap",
