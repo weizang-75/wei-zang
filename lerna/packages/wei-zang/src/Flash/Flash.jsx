@@ -97,13 +97,11 @@ export default function Flash() {
                 className={ clsx( classes.movieClip ) }
                 style={{ 
                   zIndex: 500, opacity: 0,
-                  width: 100, height: 100,
-                  overflow: 'hidden'
+                  overflow: 'hidden',
                 }}>
                 <ArrowButton settings={{
                   label: `Bottom Right`,
                   direction: `rightDown`,
-                  color: `pink`,
                   onClick: ( e ) => {
                     e.preventDefault()
                     pingpongBallAS('moveTo', 'bottomright')
@@ -133,7 +131,6 @@ export default function Flash() {
                 className={ clsx( classes.movieClip ) }
                 style={{ 
                   zIndex: 300, opacity: 0,
-                  width: 100, height: 100,
                   overflow: 'hidden'
                 }}>
                 <ArrowButton settings={{

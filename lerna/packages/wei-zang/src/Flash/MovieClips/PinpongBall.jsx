@@ -7,16 +7,16 @@ const PinpongBall = props => {
     const { settings } = props
     const {
         onClick,
-        ballColor,
-        smileColor,
+        // ballColor,
+        // smileColor,
     } = settings
 
     let cBall = `#000`
     let cSmile = `#fff`
-    if ( settings ) {
-        if ( ballColor ) cBall = ballColor
-        if ( smileColor ) cSmile = smileColor
-    }
+    // if ( settings ) {
+    //     if ( ballColor ) cBall = ballColor
+    //     if ( smileColor ) cSmile = smileColor
+    // }
 
     return <IconButton style={{ width: 100, height: 100 }}
                 onClick={ onClick }>

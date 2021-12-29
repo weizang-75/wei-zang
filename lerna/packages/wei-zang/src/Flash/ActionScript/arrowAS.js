@@ -17,6 +17,7 @@ const setup = () => {
     gsap.to ( `#arrowTopRight`, {
         opacity: 1,
         duration: duration,
+        rotation: -45,
         ease: Power1.easeOut,
         onComplete: () => {
             // console.log ('arrowAS setup done')
@@ -28,6 +29,7 @@ const setup = () => {
     setPosition( el, `topleft` )
     gsap.to ( `#arrowTopLeft`, {
         opacity: 1,
+        rotation: -135,
         duration: duration,
         ease: Power1.easeOut,
         onComplete: () => {
@@ -41,6 +43,7 @@ const setup = () => {
     gsap.to ( `#arrowBottomLeft`, {
         opacity: 1,
         duration: duration,
+        rotation: -225,
         ease: Power1.easeOut,
         onComplete: () => {
             // console.log ('arrowAS setup done')
@@ -54,6 +57,7 @@ const setup = () => {
         opacity: 1,
         duration: duration,
         ease: Power1.easeOut,
+        rotation: 45,
         onComplete: () => {
             // console.log ('arrowAS setup done')
         }
