@@ -4,8 +4,9 @@
   "description": "Open Source wei-zang.com WordPress consumer",
   "scripts": {
     "bootstrap": "cd ./lerna && lerna bootstrap",
-    "dev": "cd ./lerna/packages/wordpress-ts && npm run start",
-    "build": "cd ./lerna/packages/wordpress-ts && npm run build"
+    "dev": "cd ./lerna/packages/ts-wordpress && npm run start",
+    "build": "cd ./lerna/packages/ts-wordpress && npm run build",
+    "deploy": "cd ./lerna/packages/ts-wordpress && npm run build && firebase deploy"
   },
   "repository": {
     "type": "git",
