@@ -1,11 +1,12 @@
 {
   "name": "wei-zang",
-  "version": "1.0.0",
-  "description": "Open Source wei-zang.com",
+  "version": "1.0.2",
+  "description": "Open Source wei-zang.com WordPress consumer",
   "scripts": {
     "bootstrap": "cd ./lerna && lerna bootstrap",
-    "wz:dev": "cd ./lerna/packages/wei-zang && npm run start",
-    "wz:build": "cd ./lerna/packages/wei-zang && npm run build"
+    "dev": "cd ./lerna/packages/ts-wordpress && npm run start",
+    "build": "cd ./lerna/packages/ts-wordpress && npm run build",
+    "deploy": "cd ./lerna/packages/ts-wordpress && npm run build && firebase deploy"
   },
   "repository": {
     "type": "git",
